@@ -22,4 +22,4 @@ answer2.addEventListener("click", function () {
 answer3.addEventListener("click", function () {
 	quizReaction.textContent =
 		"Correct!" //they pressured her to reveal Boucher, the mole inside Russian Intelligence.";
-});
+}); 
