@@ -4,7 +4,7 @@
 //console.log(headline);
 
 
-let quizReaction = document.getElementById("reaction");
+let quizReaction = document.getElementById("quiz-reaction");
 let answer0 = document.getElementById("answer-0");
 let answer1 = document.getElementById("answer-1");
 let answer2 = document.getElementById("answer-2");
@@ -17,20 +17,18 @@ answer0.addEventListener("click", function () {
 		document.body.style.backgroundColor = "";
 	}, 300);
 });
-
 answer1.addEventListener("click", function () {
 	quizReaction.textContent = "Misguided - her Sparrow Instructors weren't the focus of the interrogation.";
 	document.body.style.backgroundColor = "crimson";
-	setTimeOut(() => {
+	setTimeout(() => {
 		document.body.style.backgroundColor = "";
 	}, 300);
 });		
-
 answer2.addEventListener("click", function () {
 	quizReaction.textContent = "Defenitive, they pressured her to reveal Boucher, the mole inside Russian Intelligence.";
 	document.body.style.backgroundColor = "";
 }); 
 // -->Hint button
 hintButton.addEventListener("click", function () {
-	quizReaction.textContet = "Hint: They wanted the name of a mole inside the American intelligence community.";
+	quizReaction.textContent = "Hint: They wanted the name of a mole inside the American intelligence community.";
 });
