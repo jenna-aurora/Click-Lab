@@ -9,7 +9,17 @@ let answer0 = document.getElementById("answer-0");
 let answer1 = document.getElementById("answer-1");
 let answer2 = document.getElementById("answer-2");
 let hintButton = document.getElementById("hint-button");
+let greeting = document.getElementById("greeting")
 
+let greetings = [
+	"Ready to test your spy knowledge?",
+	"Your mission begins now",
+	"Think carefully - the interrogators did."
+];
+
+let randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+
+greeting.textContent = randomGreeting;
 answer0.addEventListener("click", function () {
 	quizReaction.textContent = "Erroneous - her location wasn't what the interrogators wanted.";
 	document.body.style.backgroundColor = "crimson";
