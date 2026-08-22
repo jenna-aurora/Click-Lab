@@ -1,0 +1,64 @@
+
+
+/* Card containers for each question */
+.card {
+    background: "";
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+/* All answer + hint buttons */
+button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: black;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+button:hover {
+    background: crimson;
+}
+
+/* Hint buttons — matches your script.js IDs */
+#hint-button-1,
+#hint-button-2,
+#hint-button-3 {
+    background: crimson;
+}
+
+#hint-button-1:hover,
+#hint-button-2:hover,
+#hint-button-3:hover {
+    background: gray;
+}
+
+/* Greeting section */
+.hero {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+/* Title color */
+.tagline {
+    color: crimson;
+}
+
+/* Reaction text */
+.query {
+    color: crimson;
+    font-size: 32px;
+    padding: 2px 12px;
+}

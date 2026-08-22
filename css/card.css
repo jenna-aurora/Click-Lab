@@ -1,0 +1,14 @@
+
+.card {
+	background-color: var(--pico-card-background-color, #ffffff);
+	color: var(--pico-color, #373c44);
+	border: 1px solid var(--pico-muted-border-color, #e7eaf0);
+	padding: 1.5rem;
+	border-radius: var(--pico-border-radius);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--pico-shadow);
+}
