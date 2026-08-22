@@ -2,31 +2,45 @@
 <html data-theme="dark">
   <head>
 	<title>Click-Lab</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
 	<link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/choice-list.css">
+	<link rel="stylesheet" href="css/style.css">
   </head>
-    <body>
-     <h1 id = "headline-1">Click-Lab</h1>
-	 <main>
-	 <section id = "question-text" class="card">
-	  <h2>Red Sparrow Quiz</h2>
-	 <p id="greeting"></p>
-	 <p id="question">
+   <body>
+   <div class="hero"
+     <span class="tagline">Click-Lab</span>
+	  <p id="greeting"> </p>
+	</div>
+		<p id="quiz-reaction" class="query"></p>
+		<h1 id="tagline-1"> <span class="tagline">Red Sparrow Quiz</span></h1>
+	<div class="card">
+	 <h2>
 	  In Red Sparrow, what information is Dominika pressured to reveal during her imprisonment?
-	 </p>
- `   <button id = "answer-0">The names of her instructors at Sparrow School</button>
-	 <button id = "answer-1">Her location before capture</button>
-	 <button id = "answer-2">The identity of Boucher</button>
-	 <button id="hint-button">Hint</button>
-     <p>What pushes Dominika to join the Sparrow program?
-	 </p>
- `   <button id = "answer-3">To escape Russia</button>
- `   <button id = "answer-4">To protect her ill mother ? correct</button>
- `   <button id = "answer-5">To pursue a career in espionage</button>
-	 <p>What skill is emphasized most during Sparrow training?</p>
-	 <button id = "answer-6">Physical combat</button>
-	 <button id = "answer-7">Psychological manipulation ? correct</button>
-	 <button id = "answer-8">Computer hacking</button>
-	 <p id="quiz-reaction"></p>
+	 </h2>
+      <button id = "answer-0">The names of her instructors at Sparrow School</button>
+	  <button id = "answer-1">Her location before capture</button>
+	  <button id = "answer-2">The identity of Boucher</button>
+	  <button id="hint-button-1" class="hint-button">Hint</button>
+	 </div>
+	 <div class="card">
+     <h2>
+	 What pushes Dominika to join the Sparrow program?
+	 </h2>
+      <button id = "answer-3">To escape Russia</button>
+      <button id = "answer-4">To protect her ill mother</button>
+      <button id = "answer-5">To pursue a career in espionage</button>
+	  <button id="hint-button-2" class="hint-button">Hint</button>
+	 </div>
+	 <div class="card">
+	 <h2>
+	 What skill is emphasized most during Sparrow training?
+	 </h2>
+	  <button id = "answer-6">Physical combat</button>
+	  <button id = "answer-7">Psychological manipulation ? correct</button>
+	  <button id = "answer-8">Computer hacking</button>
+	  <button id="hint-button-3" class="hint-button">Hint</button>
+	 </div>
 	</section>
    </main>
 	<script src="script.js"></script>
